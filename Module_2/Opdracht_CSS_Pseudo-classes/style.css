@@ -1,0 +1,42 @@
+.first:hover {
+    color: lightblue;
+    font-style: normal;
+}
+
+.second:active {
+    color: red;
+    font-style: italic;
+}
+
+.third:visited {
+    color: yellow;
+}
+
+.textField:focus {
+    color: green;
+    font-size: 20px;
+}
+
+ul {
+    background-color: darkblue;
+    float: left;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+}
+
+li:hover {
+    background-color: lightblue;
+}
+
+ul li:first-child {
+    margin-left: 0px;
+    background-color: lightslategrey;
+}
+
+.textInput {
+    border: 5px solid aliceblue;
+    outline: none;
+}
