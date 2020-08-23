@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a {
+    margin: 10px 0px 0px 10px;
+}
+
+img {
+    height: 250px;
+    width: 150px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.options {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.posters {
+    border: 75px solid black;
+}
+
