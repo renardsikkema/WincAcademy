@@ -1,0 +1,36 @@
+body { 
+    color: red;
+    background: darkblue;
+    font: normal 16px arial;
+}
+  
+img {
+    transform: rotate(90deg);
+  
+}
+  
+.black-border {
+    border: 5px solid black;
+}
+  
+#green-background {
+    background-color: green;
+}
+
+@media (min-width: 320px) {
+    body {
+        font-size: 10px;
+    }
+}
+  
+@media (min-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+}
+  
+@media (min-width: 1024px) {
+    body {
+        font-size: 30px;
+    }
+}

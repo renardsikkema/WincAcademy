@@ -1,0 +1,15 @@
+body { 
+    color: red;
+    background: darkblue;
+    font: normal 16px arial;
+}
+
+h1 {
+    margin: 60px;
+}
+
+ul.navItems li {
+    display: inline;
+    list-style: none;
+    margin: 20px;
+}
