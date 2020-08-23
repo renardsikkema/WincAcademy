@@ -1,0 +1,15 @@
+{
+  "name": "Eindopdracht-Galgje_met_Unit_Tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
