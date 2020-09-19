@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.App-header {
+  background: #4f8bc9 url("./assets/Winc_Logo.png") no-repeat;
+  background-position: right 25px bottom 5px;
+  font-family: "Lato", sans-serif;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(25px + 4vmin);
+  color: white;
+}
+
+.App-header h1 {
+  padding-top: 15px;
+  padding-left: 15px;
+  margin: 0;
+}
+
+.navigation ul {
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d6e2f0;
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: #4f8bc9;
+  border: 3px solid #ffb212;
+  border-radius: 5px;
+}
+
+.OverviewPage {
+  font-family: "Lato", sans-serif;
+  padding: 15px;
+}
+
+.OverviewPage h1 {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.ChartComponent {
+  margin-bottom: 20px;
+  border: 3px solid #ffb212;
+  border-radius: 5px;
+  margin: 50px;
+  justify-content: center;
+}
+
+.InputSelect {
+  padding: 15px;
+  background-color: #d6e2f0;
+  border-radius: 0px 0px 5px 0px;
+  width: 35%;
+}
+
+.InputSelectLabel {
+  margin-right: 5px;
+}
+
+.SelectStudents {
+  font-family: "Lato", sans-serif;
+  padding: 15px;
+  background-color: #d6e2f0;
+  border: 3px solid #ffb212;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+.SelectStudents p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.StudentsPage {
+  font-family: "Lato", sans-serif;
+  padding: 15px;
+}
+
+.StudentsPage h1 {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 0;
+}
+
+.ListBlock {
+  width: 400px;
+}
+
+.StudentsPageList ul {
+  list-style: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.StudentsPageList li {
+  display: inline-block;
+  background-color: whitesmoke;
+  width: 40%;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.StudentsPageList li:hover {
+  background-color: #4f8bc9;
+  border: 3px solid #ffb212;
+  border-radius: 5px;
+}
+
+.StudentsPageList li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.StudentPage {
+  font-family: "Lato", sans-serif;
+  padding: 15px;
+}
+
+.StudentPage h1 {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 0;
+}
+
+.GraphComponent {
+  margin-bottom: 20px;
+  border: 3px solid #ffb212;
+  border-radius: 5px;
+  margin: 50px;
+  justify-content: center;
+}
+
+.ComponentInfo {
+  padding: 15px;
+  background-color: whitesmoke;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.ComponentInfo p {
+  margin: 0;
+}
+
+.ComponentInfo .fun::before {
+  content: "";
+  display: inline-block;
+  background-color: #e25c33;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.ComponentInfo .difficult::before {
+  content: "";
+  display: inline-block;
+  background-color: #fef5a7;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.ComponentInfo .averageAll::before {
+  content: "";
+  display: inline-block;
+  background-color: #ba5045;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.ComponentInfo .averageOneStudent::before {
+  content: "";
+  display: inline-block;
+  background-color: #ea44f7;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
